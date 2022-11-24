@@ -17,7 +17,11 @@
 /**
  * struct fmt - Struct op
  * @fmt: The format.
+<<<<<<< HEAD
  * @fn: The function associated.
+=======
+ * @fn: The function associated
+>>>>>>> 436e5425bd763435f6f87fc2916ca3f1379d8ccb
  */
 struct fmt
 {
