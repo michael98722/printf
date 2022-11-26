@@ -131,7 +131,7 @@ int print_reverse(va_list types, char buffer[],
 		char z = str[i];
 
 		write(1, &z, 1);
-		count++
+		count++;
 	}
 	return (count);
 }
@@ -173,8 +173,8 @@ int print_rot13string(va_list types, char buffer[],
 			{
 				x = out[j];
 				write(1, &x, 1);
-				count++
-					break;
+				count++;
+				break;
 			}
 		}
 		if (!in[j])
